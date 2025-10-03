@@ -1,0 +1,66 @@
+.projects-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+.projects-heading {
+  font-size: 28px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.project-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-image {
+  width: 50%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.project-text {
+  width: 50%;
+  text-align: left;
+}
+
+.project-number {
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.project-link svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  cursor: pointer;
+  transition: fill 0.3s;
+}
+
+.project-link:hover svg {
+  fill: #00bcd4;
+}

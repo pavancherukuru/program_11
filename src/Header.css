@@ -1,0 +1,130 @@
+/* Header main container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 12px 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Left side: logo + Personal text */
+.class {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.personal {
+  width: 28px;
+  height: 28px;
+}
+
+.personal1 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+/* Middle nav links */
+.taskbar {
+  display: flex;
+  gap: 24px;
+}
+
+.taskbar h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.taskbar h4:hover {
+  color: #007bff; /* blue hover */
+}
+
+/* Resume button */
+.button {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text & icon */
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #333;
+}
+
+.button img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  color: #ffffff;
+}
+
+/* Hide hamburger on larger screens */
+.hamburger {
+  display: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 20px;
+    gap: 10px;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .taskbar {
+    display: none;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .taskbar.open {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .taskbar h4 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: auto; /* keep width auto on small screens */
+    justify-content: center;
+  }
+}

@@ -1,0 +1,156 @@
+
+.banner{
+    /* Banner */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 48px;
+
+margin: 0 auto;
+width: 700px;
+height: 376px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.banner1{
+   /* Frame 20 */
+
+position: absolute;
+width: 1000px;
+height: 300px;
+left: 500px;
+top: 50px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+}
+/* Banner */
+
+/* Auto layout */
+.banner2{
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+isolation: isolate;
+
+margin: 10 auto;
+width: 889px;
+height: 596px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame{
+  /* Frame 42 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 0px;
+gap: 32px;
+
+position: absolute;
+width: 320px;
+height: 64px;
+left: 112px;
+top: 620px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+
+
+
+
+}
+.text{
+    /* I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book. */
+
+width: 400px;
+height: 96px;
+
+/* Paragraph P2/Regular */
+font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+letter-spacing: 0.02em;
+
+/* Zinc/500 */
+color: #71717A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.button{
+  /* Button */
+
+/* Auto layout */
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px;
+gap: 2px;
+
+width: 56px;
+height: 56px;
+
+/* Primary/Black */
+background: #000000;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.button1{
+    /* Button */
+
+/* Auto layout */
+
+
+/* Primary/Black */
+border: 2px solid #000000;
+
+
+}
+

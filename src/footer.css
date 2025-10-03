@@ -1,0 +1,40 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.personal-button {
+  background-color: #121212;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.personal-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.footer-right p {
+  margin: 0;
+  line-height: 1.2;
+  text-align: right;
+}
